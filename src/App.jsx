@@ -1,13 +1,9 @@
 // import { useState } from 'react'
 import './assets/style/App.css'
+import SimonGame from './components/SimonGame'
 
 function App() {
-
-  return (
-    <>
-      <h1>HELLO WORLD</h1>
-    </>
-  )
+  return <SimonGame/>
 }
 
 export default App
