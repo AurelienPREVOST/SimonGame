@@ -2,3 +2,100 @@
   margin:0;
   padding:0;
 }
+
+.bg-dark {
+  background: rgb(56, 56, 56);
+}
+
+.vw100 {
+  width: 100vw;
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+ flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gameOverFlash {
+  transition: 200ms;
+  filter: invert();
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-white {
+  font-size: 1.5rem;
+  color:white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.opacity-30 {
+  filter: opacity(0.3);
+}
+
+.w25 {
+  width:25vw;
+  height:25vw;
+}
+
+.w20 {
+  width:20vw;
+  height:20vw;
+}
+
+.btnGreen{
+  background: rgb(86, 218, 106);
+  border-top-left-radius: 100%
+}
+
+.btnRed {
+ background: rgb(235,58,60);
+ border-top-right-radius: 100%;
+}
+
+.btnYellow {
+  background: rgb(246,194,21);
+  border-bottom-left-radius: 100%
+}
+
+.btnBlue {
+  background: rgb(52,118,244);
+  border-bottom-right-radius: 100%;
+}
+
+.btn:hover{
+  transition: 250ms;
+  scale: 105%;
+}
+
+.full-rounded{
+  border-radius:100%
+}
+
+.relative {
+  position:relative;
+}
+
+.absolute {
+  position:absolute;
+}
+
+.brightness {
+  filter: brightness(130%)
+}
